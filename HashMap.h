@@ -394,7 +394,6 @@ private:
         size_t psl = 0;
         while (true) {
             if (to[index].second == emptyCell) {
-                // found pos!!!
                 to[index] = {it, psl};
                 return;
             }
